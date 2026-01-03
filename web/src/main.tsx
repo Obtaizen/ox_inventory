@@ -12,11 +12,10 @@ import { isEnvBrowser } from './utils/misc';
 const root = document.getElementById('root');
 
 if (isEnvBrowser()) {
-  // https://i.imgur.com/iPTAdYV.png - Night time img
-  root!.style.backgroundImage = 'url("https://i.imgur.com/3pzRj9n.png")';
-  root!.style.backgroundSize = 'cover';
-  root!.style.backgroundRepeat = 'no-repeat';
-  root!.style.backgroundPosition = 'center';
+  root!.style.background =
+    'radial-gradient(120% 120% at 20% 20%, rgba(255, 139, 55, 0.08), transparent 45%), ' +
+    'radial-gradient(120% 120% at 80% 80%, rgba(51, 208, 196, 0.08), transparent 50%), ' +
+    '#0b0f15';
 }
 
 createRoot(root!).render(
