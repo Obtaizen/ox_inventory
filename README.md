@@ -33,6 +33,8 @@ Advanced Crafting (Encrypted): https://fivem.samueldev.shop/product/7203650
 - **Modern tooltips** - Redesigned item tooltips with better formatting
 - **Item notifications** - Styled popup notifications for item actions (use, give, receive)
 
+> **⚠️ Important:** Download the `ox_inventory.zip` from releases, **not** the source code. The source code does not include the pre-built UI files required for the resource to work.
+
 # Original ox_inventory
 
 A complete inventory system for FiveM, implementing items, weapons, shops, and more without any strict framework dependency.
@@ -45,10 +47,6 @@ A complete inventory system for FiveM, implementing items, weapons, shops, and m
 ## 📚 Documentation
 
 https://coxdocs.dev/ox_inventory
-
-## 💾 Download
-
-https://github.com/communityox/ox_inventory/releases/latest/download/ox_inventory.zip
 
 ## Supported frameworks
 
