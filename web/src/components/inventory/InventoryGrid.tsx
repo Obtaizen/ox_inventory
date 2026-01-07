@@ -48,8 +48,7 @@ const XIcon: React.FC = () => (
 const WeightIcon: React.FC = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="12"
-    height="12"
+    style={{ width: 'calc((0.729vw + 1.296vh) / 2)', height: 'calc((0.729vw + 1.296vh) / 2)' }}
     viewBox="0 0 20 20"
     fill="currentColor"
   >
@@ -136,9 +135,9 @@ const InventoryGrid: React.FC<{ inventory: Inventory }> = ({ inventory }) => {
     <div className="inventory-grid-wrapper" style={{ pointerEvents: isBusy ? 'none' : 'auto' }}>
       {/* Header */}
       <div className="inventory-grid-header-wrapper">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 'calc((0.417vw + 0.741vh) / 2)' }}>
           <p>{inventory.label || 'Secondary Inventory'}</p>
-          <span style={{ fontSize: '12px', color: 'rgba(107, 114, 128, 1)' }}>
+          <span style={{ fontSize: 'calc((0.625vw + 1.111vh) / 2)', color: 'rgba(107, 114, 128, 1)' }}>
             {itemCount} items
           </span>
         </div>
