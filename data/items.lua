@@ -1064,4 +1064,38 @@ return {
             export = 'sd-crafting.useAdvanced_workbench',
         }
     },
+
+    ["thermite_h"] = {
+        label = "Thermite",
+        weight = 1000,
+        stack = false,
+        close = true,
+        description = "A low-yield thermite charge..",
+        consume = 0,
+        client = {
+            image = "thermite_h.png",
+        },
+    },
+
+    ["gang-keychain"] = {
+        label = "Keychain",
+        weight = 50,
+        stack = true,
+        close = true,
+        description = "A keychain with a load of oddly labelled keys",
+        client = {
+            image = "gang-keychain.png",
+        }
+    },
+
+    ["safecracker"] = {
+        label = "Safe Cracker",
+        weight = 500,
+        stack = true,
+        close = true,
+        description = "A specialized tool used for breaking into safes.",
+        client = {
+	        image = "safecracker.png",
+        }
+    },
 }
