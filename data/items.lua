@@ -1034,4 +1034,34 @@ return {
             image = "package.png",
         }
     },
+
+    ["workbench"] = {
+        label = "Workbench",
+        weight = 10000,
+        stack = false,
+        close = true,
+        description = "A portable workbench for basic crafting.",
+        consume = 0,
+        client = {
+            image = "workbench.png",
+        },
+        server = {
+            export = 'sd-crafting.useWorkbench',
+        }
+    },
+
+    ["advanced_workbench"] = {
+        label = "Advanced Workbench",
+        weight = 15000,
+        stack = false,
+        close = true,
+        description = "A high-tech workbench with advanced crafting capabilities.",
+        consume = 0,
+        client = {
+            image = "advanced_workbench.png",
+        },
+        server = {
+            export = 'sd-crafting.useAdvanced_workbench',
+        }
+    },
 }
